@@ -1,5 +1,5 @@
 {
-    "name": "botman/driver-web",
+    "name": "11lf11/driver-web",
     "license": "MIT",
     "description": "Web driver for BotMan",
     "keywords": [
@@ -14,14 +14,14 @@
     }],
     "require": {
         "php": ">=7.0",
-        "botman/botman": ">=2.0"
+        "11lf11/botman": ">=2.0"
     },
     "require-dev": {
-        "botman/studio-addons": "~1.0",
+        "11lf11/studio-addons": "~1.0",
         "illuminate/support": "~5.5.0",
         "phpunit/phpunit": "~5.0",
         "mockery/mockery": "^1.1",
-        "botman/driver-facebook": "~2.0",
+        "11lf11/driver-facebook": "~2.0",
         "ext-curl": "*"
     },
     "autoload": {
@@ -49,5 +49,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "thecodingmachine/discovery": true,
+            "kylekatarnls/update-helper": true
+        }
+    }
 }
